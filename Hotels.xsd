@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    
+    <!-- Create Hotels element, not sure what to comment here because it explains itself. It makes the fields described and defines their parameters-->
     <xsd:element name="Hotels">
         <xsd:complexType>
             <xsd:sequence>
@@ -22,7 +22,7 @@
                                 </xsd:complexType>
                             </xsd:element>
                         </xsd:sequence>
-                        <xsd:attribute name="Rating" type="xsd:decimal" use="optional"/>
+                        <xsd:attribute name="Rating" type="xsd:string" use="optional"/>
                     </xsd:complexType>
                 </xsd:element>
             </xsd:sequence>
