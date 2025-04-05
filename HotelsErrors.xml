@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotel>
-  <!-- First Hotel is the Westin Copy with Sky Harbor mispeld to Habor-->
-  <Hotel Rating="4.2" NearstAirport="Sky Habor">
+  <!-- First Hotel is the Westin Copy with Sky Harbor misspelled to Habor-->
+  <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address>
+    <Address NearstAirport="Sky Habor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
@@ -27,9 +27,9 @@
     </Address>
   </Hotel>
 
-  <!-- Third Hotel Missing Name for error-->
+  <!-- Third Hotel Required Attribute name is missing-->
   <Hotel Rating="3.9">
-    <Name></Name>
+    <!--<Name>Hilton Phoenix Resort at the Peak</Name> commented out for easier reading-->
     <Phone>602-997-2626</Phone>
     <Phone>602-997-2627</Phone>
     <Address>
@@ -41,11 +41,11 @@
     </Address>
   </Hotel>
 
-  <!-- Fourth Hotel Phone element is missing for error-->
-  <Hotel NearstAirport="Sky Habor">
+  <!-- Fourth Hotel Phone element is missing -->
+  <Hotel>
     <Name>Red Roof PLUS+ Tempe</Name>
-    <Phone></Phone>
-    <Address>
+    <!-- <Phone>480-581-4940</Phone> -->
+    <Address NearstAirport="Sky Habor">
       <Number>2135</Number>
       <Street>W 15th St</Street>
       <City>Tempe</City>
@@ -54,25 +54,25 @@
     </Address>
   </Hotel>
 
-  <!-- Fifth Hotel Address has no closing tag for error-->
-  <Hotel Rating="4.1" NearstAirport="Sky Habor">
+  <!-- Fifth Hotel Address Element has no closing tag-->
+  <Hotel Rating="4.1">
     <Name>The McCormick Scottsdale</Name>
     <Phone>800-535-1865</Phone>
     <Phone>800-535-1866</Phone>
     <Phone>800-535-1867</Phone>
-    <Address>
+    <Address NearstAirport="Sky Habor">
       <Number>7421</Number>
       <Street>N Scottsdale Rd</Street>
       <City>Scottsdale</City>
       <State>AZ</State>
       <Zip>85253</Zip>
-    <!-- /Address would be here-->
+    <!--</Address>-->
   </Hotel>
 
-  <!-- Sixth Hotel duplicate name for error-->
-  <Hotel Rating="4.0" >
+  <!-- Sixth Hotel 2 names are provided-->
+  <Hotel Rating="4.0">
     <Name>The Clarendon Hotel and Spa</Name>
-    <Name>Duplicate name error lol</Name>
+    <Name>error this has 2 names when max is 1</Name>
     <Phone>602-252-7363</Phone>
     <Address>
       <Number>401</Number>
@@ -84,7 +84,7 @@
   </Hotel>
 
   <!-- Seventh Hotel -->
-  <Hotel Rating="4.3" >
+  <Hotel Rating="4.3">
     <Name>Arizona Grand Resort and Spa</Name>
     <Phone>877-800-4888</Phone>
     <Phone>877-800-4889</Phone>
@@ -111,10 +111,10 @@
   </Hotel>
 
   <!-- Ninth Hotel -->
-  <Hotel Rating="4.2" NearstAirport="Sky Habor">
+  <Hotel Rating="4.2">
     <Name>Hyatt Place Tempe</Name>
     <Phone>480-207-1578</Phone>
-    <Address>
+    <Address NearstAirport="Sky Habor">
       <Number>601</Number>
       <Street>E 6th Street</Street>
       <City>Tempe</City>
@@ -136,7 +136,7 @@
     </Address>
   </Hotel>
 
-  <!-- Eleventh Hotel as a test -->
+  <!-- Eleventh Hotel -->
   <Hotel>
     <Name>Holiday Inn Express</Name>
     <Phone>480-784-2233</Phone>
@@ -148,5 +148,4 @@
       <Zip>85288</Zip>
     </Address>
   </Hotel>
-  
 </Hotels>

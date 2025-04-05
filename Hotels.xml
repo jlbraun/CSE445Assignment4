@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels>
-  <!-- First Hotel is the Westin Copy with Sky Harbor mispeld to Habor-->
-  <Hotel NearstAirport="Sky Habor" Rating="4.2">
+  <!-- First Hotel is the Westin Copy with Sky Harbor misspelled to Habor-->
+  <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address>
+    <Address NearstAirport="Sky Habor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
@@ -42,10 +42,10 @@
   </Hotel>
 
   <!-- Fourth Hotel -->
-  <Hotel NearstAirport="Sky Habor">
+  <Hotel>
     <Name>Red Roof PLUS+ Tempe</Name>
     <Phone>480-581-4940</Phone>
-    <Address>
+    <Address NearstAirport="Sky Habor">
       <Number>2135</Number>
       <Street>W 15th St</Street>
       <City>Tempe</City>
@@ -55,12 +55,12 @@
   </Hotel>
 
   <!-- Fifth Hotel -->
-  <Hotel Rating="4.1" NearstAirport="Sky Habor">
+  <Hotel Rating="4.1">
     <Name>The McCormick Scottsdale</Name>
     <Phone>800-535-1865</Phone>
     <Phone>800-535-1866</Phone>
     <Phone>800-535-1867</Phone>
-    <Address>
+    <Address NearstAirport="Sky Habor">
       <Number>7421</Number>
       <Street>N Scottsdale Rd</Street>
       <City>Scottsdale</City>
@@ -70,7 +70,7 @@
   </Hotel>
 
   <!-- Sixth Hotel -->
-  <Hotel Rating="4.0" >
+  <Hotel Rating="4.0">
     <Name>The Clarendon Hotel and Spa</Name>
     <Phone>602-252-7363</Phone>
     <Address>
@@ -83,7 +83,7 @@
   </Hotel>
 
   <!-- Seventh Hotel -->
-  <Hotel Rating="4.3" >
+  <Hotel Rating="4.3">
     <Name>Arizona Grand Resort and Spa</Name>
     <Phone>877-800-4888</Phone>
     <Phone>877-800-4889</Phone>
@@ -110,10 +110,10 @@
   </Hotel>
 
   <!-- Ninth Hotel -->
-  <Hotel Rating="4.2" NearstAirport="Sky Habor">
+  <Hotel Rating="4.2">
     <Name>Hyatt Place Tempe</Name>
     <Phone>480-207-1578</Phone>
-    <Address>
+    <Address NearstAirport="Sky Habor">
       <Number>601</Number>
       <Street>E 6th Street</Street>
       <City>Tempe</City>
@@ -135,7 +135,7 @@
     </Address>
   </Hotel>
 
-  <!-- Eleventh Hotel as a test -->
+  <!-- Eleventh Hotel -->
   <Hotel>
     <Name>Holiday Inn Express</Name>
     <Phone>480-784-2233</Phone>
@@ -147,5 +147,4 @@
       <Zip>85288</Zip>
     </Address>
   </Hotel>
-
 </Hotels>
