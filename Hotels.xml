@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels>
-  <!-- First Hotel with all fields including optional ones -->
+  <!-- First Hotel is the Westin Copy with Sky Harbor mispeld to Habor-->
   <Hotel Rating="4.2" NearstAirport="Sky Habor">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
