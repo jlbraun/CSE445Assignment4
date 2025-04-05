@@ -18,7 +18,7 @@
   <Hotel>
     <Name>The Scottsdale Plaza Resort</Name>
     <Phone>480-948-5000</Phone>
-    <Address>
+    <Address NearstAirport="Sky Habor">
       <Number>7200</Number>
       <Street>North Scottsdale Rd</Street>
       <City>Scottsdale</City>
@@ -32,7 +32,7 @@
     <!--<Name>Hilton Phoenix Resort at the Peak</Name> commented out for easier reading-->
     <Phone>602-997-2626</Phone>
     <Phone>602-997-2627</Phone>
-    <Address>
+    <Address NearstAirport="Sky Habor">
       <Number>7677</Number>
       <Street>N 16th St</Street>
       <City>Phoenix</City>
@@ -73,7 +73,7 @@
     <Name>The Clarendon Hotel and Spa</Name>
     <Name>error this has 2 names when max is 1</Name>
     <Phone>602-252-7363</Phone>
-    <Address>
+    <Address NearstAirport="Sky Habor">
       <Number>401</Number>
       <Street>W Clarendon Ave</Street>
       <City>Phoenix</City>
@@ -126,7 +126,7 @@
   <Hotel>
     <Name>Sonesta Simply Suites Phoenix Tempe</Name>
     <Phone>480-777-0440</Phone>
-    <Address>
+    <Address NearstAirport="Sky Habor">
       <Number>1335</Number>
       <Street>W Baseline Rd</Street>
       <City>Tempe</City>
@@ -139,7 +139,7 @@
   <Hotel>
     <Name>Holiday Inn Express</Name>
     <Phone>480-784-2233</Phone>
-    <Address>
+    <Address NearstAirport="Sky Habor">
       <Number>670</Number>
       <Street>N Scottsdale Road</Street>
       <City>Tempe</City>
