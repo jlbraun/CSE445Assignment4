@@ -87,7 +87,7 @@
     <Name>Arizona Grand Resort and Spa</Name>
     <Phone>877-800-4888</Phone>
     <Phone>877-800-4889</Phone>
-    <Address>
+    <Address NearstAirport="Sky Habor">
       <Number>8000</Number>
       <Street>South Arizona Grand E</Street>
       <City>Phoenix</City>
@@ -100,7 +100,7 @@
   <Hotel Rating="4.3">
     <Name>Marriott Phoenix Resort Tempe at The Buttes</Name>
     <Phone>602-255-9000</Phone>
-    <Address>
+    <Address NearstAirport="Sky Habor">
       <Number>2000</Number>
       <Street>W Westcourt Way</Street>
       <City>Tempe</City>
@@ -135,5 +135,16 @@
     </Address>
   </Hotel>
 
-
+  <!-- Eleventh Hotel -->
+  <Hotel>
+    <Name>Holiday Inn Express</Name>
+    <Phone>480-784-2233</Phone>
+    <Address>
+      <Number>670</Number>
+      <Street>N Scottsdale Road</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85288</Zip>
+    </Address>
+  </Hotel>
 </Hotels>
