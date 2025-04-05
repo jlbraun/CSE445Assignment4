@@ -43,7 +43,7 @@
 
   <!-- Fourth Hotel -->
   <Hotel>
-    <Name>Red Roof PLUS+ Tempe</Name>
+    <Name>Red Roof PLUS Tempe</Name>
     <Phone>480-581-4940</Phone>
     <Address NearstAirport="Sky Habor">
       <Number>2135</Number>
@@ -59,7 +59,6 @@
     <Name>The McCormick Scottsdale</Name>
     <Phone>800-535-1865</Phone>
     <Phone>800-535-1866</Phone>
-    <Phone>800-535-1867</Phone>
     <Address NearstAirport="Sky Habor">
       <Number>7421</Number>
       <Street>N Scottsdale Rd</Street>
