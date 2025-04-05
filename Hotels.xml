@@ -135,16 +135,5 @@
     </Address>
   </Hotel>
 
-  <!-- Eleventh Hotel -->
-  <Hotel>
-    <Name>Holiday Inn Express</Name>
-    <Phone>480-784-2233</Phone>
-    <Address>
-      <Number>670</Number>
-      <Street>N Scottsdale Road</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85288</Zip>
-    </Address>
-  </Hotel>
+
 </Hotels>
