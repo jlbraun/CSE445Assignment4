@@ -42,7 +42,7 @@
   </Hotel>
 
   <!-- Fourth Hotel Phone element is missing for error-->
-  <Hotel NearstAirport="Phoenix Sky Harbor">
+  <Hotel NearstAirport="Phoenix Sky Habor">
     <Name>Red Roof PLUS+ Tempe</Name>
     <Phone></Phone>
     <Address>
@@ -55,7 +55,7 @@
   </Hotel>
 
   <!-- Fifth Hotel Address has no closing tag for error-->
-  <Hotel Rating="4.1" NearstAirport="Phoenix Sky Harbor">
+  <Hotel Rating="4.1" NearstAirport="Phoenix Sky Habor">
     <Name>The McCormick Scottsdale</Name>
     <Phone>800-535-1865</Phone>
     <Phone>800-535-1866</Phone>
@@ -111,7 +111,7 @@
   </Hotel>
 
   <!-- Ninth Hotel -->
-  <Hotel Rating="4.2" NearstAirport="Phoenix Sky Harbor">
+  <Hotel Rating="4.2" NearstAirport="Phoenix Sky Habor">
     <Name>Hyatt Place Tempe</Name>
     <Phone>480-207-1578</Phone>
     <Address>
